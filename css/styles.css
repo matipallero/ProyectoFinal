@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@keyframes movimientos {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(5px); }
+  100% {
+    transform: translateY(0px); } }
+
+body {
+  background-image: url(../img/lafoto.jpg);
+  background-repeat: repeat; }
+
+@media screen and (max-width: 680px) {
+  div main div {
+    display: inline-block;
+    text-align: center; }
+  .contenedor-primero heeader-uno {
+    display: inline-block;
+    text-align: center; }
+    .contenedor-primero heeader-uno nav {
+      background-image: linear-gradient(to bottom, #252424, white); }
+      .contenedor-primero heeader-uno nav a {
+        background-color: transparent;
+        text-decoration: none;
+        color: black; }
+    .contenedor-primero heeader-uno ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-items: center;
+      background-image: linear-gradient(to top, #252424, white); }
+      .contenedor-primero heeader-uno ul li {
+        display: inline-block;
+        background-color: transparent; }
+        .contenedor-primero heeader-uno ul li a {
+          color: black;
+          background-color: transparent; } }
+
+header h1 {
+  text-align: center;
+  color: black;
+  padding: 1rem;
+  background-image: linear-gradient(to bottom, #252424, white); }
+
+header .contenedor {
+  color: black; }
+
+header h2 {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background-image: linear-gradient(to top, #535353, white);
+  color: black; }
+
+main div {
+  display: flex;
+  justify-content: space-evenly; }
+  main div a img {
+    width: 95%;
+    margin: 1rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white;
+    animation-name: movimientos;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; }
+  main div a .imagen-1 {
+    width: 400px; }
+  main div a .imagen-2 {
+    width: 400px; }
+  main div a .imagen-3 {
+    width: 400px; }
+
+footer h3 {
+  margin-top: 4.3rem;
+  padding: 1rem;
+  text-align: center;
+  color: #332d2d;
+  background-color: black;
+  color: white; }
+
+/*estilos de los hijos primeragen-html*/
+.contenedor-primero {
+  display: grid;
+  grid-template-areas: "header header" "main main" "section sec-dos" "footer footer";
+  gap: 1rem;
+  margin-top: 1rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr; }
+  .contenedor-primero .header-uno {
+    display: flex;
+    grid-area: header;
+    gap: 1rem;
+    margin-bottom: 1rem; }
+    .contenedor-primero .header-uno nav {
+      background-color: #3d3d3d;
+      text-decoration: none;
+      color: #d4d4d4; }
+      .contenedor-primero .header-uno nav ul {
+        display: flex;
+        gap: 80vh;
+        background-color: #3d3d3d; }
+        .contenedor-primero .header-uno nav ul li {
+          background-color: #3d3d3d;
+          padding: 1rem;
+          list-style: none; }
+          .contenedor-primero .header-uno nav ul li a {
+            text-decoration: none;
+            background-color: #3d3d3d;
+            color: #d4d4d4; }
+  .contenedor-primero .main-uno {
+    background-image: linear-gradient(to bottom, #252424, white);
+    color: #c5c5c5;
+    grid-area: main; }
+    .contenedor-primero .main-uno h1 {
+      text-align: center; }
+    .contenedor-primero .main-uno div-uno {
+      text-align: center; }
+    .contenedor-primero .main-uno .squirtle {
+      width: 25vh;
+      transition: 1s; }
+    .contenedor-primero .main-uno .bulbasaur {
+      width: 25vh;
+      transition: 1s; }
+    .contenedor-primero .main-uno .charmander {
+      width: 25vh;
+      transition: 1s; }
+    .contenedor-primero .main-uno .pikachu {
+      width: 25vh;
+      transition: 1s; }
+  .contenedor-primero .legendariospri-gen {
+    background-image: linear-gradient(to top, #252424, white);
+    grid-area: section;
+    text-align: center;
+    color: black; }
+    .contenedor-primero .legendariospri-gen div .articuno {
+      width: 20vh;
+      transition: 1s; }
+    .contenedor-primero .legendariospri-gen div .moltres {
+      width: 20vh;
+      transition: 1s; }
+    .contenedor-primero .legendariospri-gen div .zapdos {
+      width: 20vh;
+      transition: 1s; }
+    .contenedor-primero .legendariospri-gen div .mew {
+      width: 20vh;
+      transition: 1s; }
+    .contenedor-primero .legendariospri-gen div .meowto {
+      width: 20vh;
+      transition: 1s; }
+  .contenedor-primero .otrospokes-uno {
+    grid-area: sec-dos;
+    background-image: linear-gradient(to top, #252424, white);
+    text-align: center; }
+    .contenedor-primero .otrospokes-uno .nidorino {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .nidoran {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .widle {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .pidgey {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .spearow {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .pichu {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .caterpie {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .rattata {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .jigly {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .snorlax {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .clefa {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .ekans {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .abra {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .oddish {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .gastly {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .grimer {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .geoudude {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .magikarp {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .machop {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .mankey {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .meow {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .diggle {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .bellsprout {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .cubone {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .hitmonlee {
+      width: 10vh;
+      transition: 1s; }
+    .contenedor-primero .otrospokes-uno .hitmonchan {
+      width: 10vh;
+      transition: 1s; }
+  .contenedor-primero .footer-uno {
+    display: none;
+    grid-area: footer; }

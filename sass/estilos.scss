@@ -1,0 +1,273 @@
+//reset
+@import "partials/reset";
+@import "partials/keyframes";
+@import "partials/fondo";
+@import "partials/mediaqueries";
+
+    header{
+        h1{
+            text-align: center;
+            color: rgb(0, 0, 0);
+            padding: 1rem;
+            background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
+        }
+        .contenedor{
+            color: black;
+        }
+        h2{
+            margin-bottom: 2rem;
+        padding: 1rem;
+        text-align: center;
+        background-image: linear-gradient(to top, rgb(83, 83, 83), white);
+        color: black
+        }
+    }
+    main{
+        div{
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                img{
+                    width: 95%;
+                    margin: 1rem;
+                    border-radius: 3rem;
+                    box-shadow: 1rem 1rem 1rem white;
+                    animation-name: movimientos;
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                }
+                .imagen-1{
+                    width: 400px;
+                }
+                .imagen-2{
+                    width: 400px;
+                }
+                .imagen-3{
+                    width: 400px;
+                }
+            }
+        }
+
+    }
+    footer{
+        h3{
+            margin-top: 4.3rem;
+            padding: 1rem;
+            text-align: center;
+            color: rgb(51, 45, 45);
+            background-color: black;
+            color: white;
+        }
+    }
+
+
+ /*estilos de los hijos primeragen-html*/
+ .contenedor-primero{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "section sec-dos"
+    "footer footer";
+    gap: 1rem;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr;
+    .header-uno{
+        display: flex;
+        grid-area: header;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        nav{
+            background-color: rgb(61, 61, 61);
+            text-decoration: none;
+            color: rgb(212, 212, 212);
+            ul{
+                display: flex;
+                gap: 80vh;
+                background-color: rgb(61, 61, 61);
+                li{
+                    background-color: rgb(61, 61, 61);
+                    padding: 1rem;
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        background-color: rgb(61, 61, 61);
+                        color: rgb(212, 212, 212);
+                    }
+                }
+            }
+        }
+    }
+    .main-uno{
+        background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
+        color: rgb(197, 197, 197);
+        grid-area: main;
+        h1{
+            text-align: center;
+        }
+        div-uno{
+            text-align: center;
+        }
+        .squirtle{
+            width: 25vh;
+            transition: 1s;
+        }
+        .bulbasaur{
+            width: 25vh;
+            transition: 1s;
+        }
+        .charmander{
+            width: 25vh;
+            transition: 1s;
+        }
+        .pikachu{
+            width: 25vh;
+            transition: 1s;
+        }
+    }
+    .legendariospri-gen{
+        background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+        grid-area: section;
+        text-align: center;
+        color: black;
+        div{
+            .articuno{
+                width: 20vh;
+                transition: 1s;
+            }
+            .moltres{
+                width: 20vh;
+                transition: 1s;
+            }
+            .zapdos{
+                width: 20vh;
+                transition: 1s;
+            }
+            .mew{
+                width: 20vh;
+                transition: 1s;
+            }
+            .meowto{
+                width: 20vh;
+                transition: 1s;
+            }
+        }
+
+    }
+    .otrospokes-uno{
+        grid-area: sec-dos;
+        background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+        text-align: center;
+        .nidorino {
+            width: 10vh;
+            transition: 1s;
+        }
+        .nidoran {
+            width: 10vh;
+            transition: 1s;
+        }
+        .widle {
+            width: 10vh;
+            transition: 1s;
+        }
+        .pidgey {
+            width: 10vh;
+            transition: 1s;
+        }
+        .spearow {
+            width: 10vh;
+            transition: 1s;
+        }
+        .pichu {
+            width: 10vh;
+            transition: 1s;
+        }
+        .caterpie {
+            width: 10vh;
+            transition: 1s;
+        }
+        .rattata {
+            width: 10vh;
+            transition: 1s;
+        }
+        .jigly {
+            width: 10vh;
+            transition: 1s;
+        }
+        .snorlax {
+            width: 10vh;
+            transition: 1s;
+        }     
+        .clefa {
+            width: 10vh;
+            transition: 1s;
+        }
+        .ekans {
+            width: 10vh;
+            transition: 1s;
+        }     
+        .abra {
+            width: 10vh;
+            transition: 1s;
+        }       
+        .oddish {
+            width: 10vh;
+            transition: 1s;
+        }
+        .gastly {
+            width: 10vh;
+            transition: 1s;
+        }     
+        .grimer {
+            width: 10vh;
+            transition: 1s;
+        }      
+        .geoudude {
+            width: 10vh;
+            transition: 1s;
+        }
+        .magikarp {
+            width: 10vh;
+            transition: 1s;
+        }
+        .machop {
+            width: 10vh;
+            transition: 1s;
+        }
+        .mankey {
+            width: 10vh;
+            transition: 1s;
+        }
+        .meow {
+            width: 10vh;
+            transition: 1s;
+        }
+        .diggle {
+            width: 10vh;
+            transition: 1s;
+        }
+        .bellsprout {
+            width: 10vh;
+            transition: 1s;
+        }
+        .cubone {
+            width: 10vh;
+            transition: 1s;
+        }
+        .hitmonlee {
+            width: 10vh;
+            transition: 1s;
+        }
+        .hitmonchan {
+            width: 10vh;
+            transition: 1s;
+        }
+
+    }
+    .footer-uno{
+        display: none;
+        grid-area: footer;
+    }
+}
+ 
