@@ -19,27 +19,18 @@ body {
   div main div {
     display: inline-block;
     text-align: center; }
-  .contenedor-primero heeader-uno {
+  .header-uno {
     display: inline-block;
     text-align: center; }
-    .contenedor-primero heeader-uno nav {
-      background-image: linear-gradient(to bottom, #252424, white); }
-      .contenedor-primero heeader-uno nav a {
-        background-color: transparent;
-        text-decoration: none;
-        color: black; }
-    .contenedor-primero heeader-uno ul {
+    .header-uno nav ul {
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      justify-items: center;
       background-image: linear-gradient(to top, #252424, white); }
-      .contenedor-primero heeader-uno ul li {
-        display: inline-block;
-        background-color: transparent; }
-        .contenedor-primero heeader-uno ul li a {
-          color: black;
-          background-color: transparent; } }
+      .header-uno nav ul li {
+        background-color: transparent;
+        justify-items: center;
+        justify-content: center; } }
 
 header h1 {
   text-align: center;
