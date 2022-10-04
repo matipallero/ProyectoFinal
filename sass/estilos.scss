@@ -15,7 +15,7 @@
             color: black;
         }
         h2{
-            margin-bottom: 2rem;
+        margin-bottom: 2rem;
         padding: 1rem;
         text-align: center;
         background-image: linear-gradient(to top, rgb(83, 83, 83), white);
@@ -37,13 +37,13 @@
                     animation-iteration-count: infinite;
                 }
                 .imagen-1{
-                    width: 400px;
+                    width: 40vh;
                 }
                 .imagen-2{
-                    width: 400px;
+                    width: 40vh;
                 }
                 .imagen-3{
-                    width: 400px;
+                    width: 40vh;
                 }
             }
         }
@@ -51,7 +51,7 @@
     }
     footer{
         h3{
-            margin-top: 4.3rem;
+            margin-top: 11.5vh;
             padding: 1rem;
             text-align: center;
             color: rgb(51, 45, 45);
@@ -70,29 +70,25 @@
     "section sec-dos"
     "footer footer";
     gap: 1rem;
-    margin-top: 1rem;
     grid-template-columns: 1fr 2fr ;
     grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr;
     .header-uno{
-        display: flex;
         grid-area: header;
         gap: 1rem;
         margin-bottom: 1rem;
         nav{
-            background-color: rgb(61, 61, 61);
-            text-decoration: none;
-            color: rgb(212, 212, 212);
             ul{
                 display: flex;
-                gap: 80vh;
                 background-color: rgb(61, 61, 61);
+                justify-content: space-evenly;
                 li{
                     background-color: rgb(61, 61, 61);
                     padding: 1rem;
                     list-style: none;
+                    display: flex;
+
                     a{
                         text-decoration: none;
-                        background-color: rgb(61, 61, 61);
                         color: rgb(212, 212, 212);
                     }
                 }
