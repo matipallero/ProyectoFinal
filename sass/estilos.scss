@@ -61,7 +61,7 @@
     }
 
 
- /*estilos de los hijos primeragen-html*/
+ /*estilos de primeragen-html*/
  .contenedor-primero{
     display: grid;
     grid-template-areas:
@@ -108,18 +108,30 @@
         .squirtle{
             width: 25vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         .bulbasaur{
             width: 25vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         .charmander{
             width: 25vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         .pikachu{
             width: 25vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
     .legendariospri-gen{
@@ -131,22 +143,49 @@
             .articuno{
                 width: 20vh;
                 transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
             }
             .moltres{
                 width: 20vh;
                 transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+                
             }
             .zapdos{
                 width: 20vh;
                 transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
             }
             .mew{
                 width: 20vh;
                 transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
             }
             .meowto{
                 width: 20vh;
                 transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .dragonite{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);}
             }
         }
 
@@ -158,106 +197,184 @@
         .nidorino {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .nidoran {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .widle {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .pidgey {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .spearow {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .pichu {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .caterpie {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .rattata {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .jigly {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .snorlax {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }     
         .clefa {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .ekans {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }     
         .abra {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }       
         .oddish {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .gastly {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }     
         .grimer {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }      
         .geoudude {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .magikarp {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .machop {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .mankey {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .meow {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .diggle {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .bellsprout {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .cubone {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .hitmonlee {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
         .hitmonchan {
             width: 10vh;
             transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
         }
 
     }
@@ -267,3 +384,328 @@
     }
 }
  
+/*estilos segunda generacion*/
+
+ .contenedor-segundo{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "section sec-dos"
+    "footer footer";
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr;
+    .header-dos{
+        grid-area: header;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        nav{
+            ul{
+                display: flex;
+                background-color: rgb(61, 61, 61);
+                justify-content: space-evenly;
+                li{
+                    background-color: rgb(61, 61, 61);
+                    padding: 1rem;
+                    list-style: none;
+                    display: flex;
+
+                    a{
+                        text-decoration: none;
+                        color: rgb(212, 212, 212);
+                    }
+                }
+            }
+        }
+    }
+    .main-dos{
+        background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
+        color: rgb(197, 197, 197);
+        grid-area: main;
+        h1{
+            text-align: center;
+        }
+        div-uno{
+            text-align: center;
+        }
+        .totodile{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .chikorita{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .cyndaquil{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .pikachu{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .legendariosdos-gen{
+        background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+        grid-area: section;
+        text-align: center;
+        color: black;
+        div{
+            .suicune{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .entei{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+                
+            }
+            .raikou{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .lugia{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .hooh{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .celebi{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+        }
+
+    }
+    .otrospokes-dos{
+        grid-area: sec-dos;
+        background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+        text-align: center;
+        .ledyba {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .chinchou {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .marill {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .sentret {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .cobrat {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .hoothoot {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .natu {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .mareep {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .togepi {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .bellosom {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }     
+        .scizor {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .heracross {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }     
+        .politoed {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }       
+        .bobo {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .steelix {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }     
+        .teddihursa {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }      
+        .kingdra {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .phanpy {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .girafarig {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .spinarak {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .magby {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .sneasel {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .elekid {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .houndour {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .blissey{
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .delibird {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+
+    }
+    .footer-dos{
+        display: none;
+        grid-area: footer;
+    }
+}

@@ -30,6 +30,18 @@ body {
       .header-uno nav ul li {
         background-color: transparent;
         justify-items: center;
+        justify-content: center; }
+  .header-dos {
+    display: inline-block;
+    text-align: center; }
+    .header-dos nav ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background-image: linear-gradient(to top, #252424, white); }
+      .header-dos nav ul li {
+        background-color: transparent;
+        justify-items: center;
         justify-content: center; } }
 
 header h1 {
@@ -74,7 +86,7 @@ footer h3 {
   background-color: black;
   color: white; }
 
-/*estilos de los hijos primeragen-html*/
+/*estilos de primeragen-html*/
 .contenedor-primero {
   display: grid;
   grid-template-areas: "header header" "main main" "section sec-dos" "footer footer";
@@ -108,15 +120,23 @@ footer h3 {
     .contenedor-primero .main-uno .squirtle {
       width: 25vh;
       transition: 1s; }
+      .contenedor-primero .main-uno .squirtle:hover {
+        transform: scale(1.1); }
     .contenedor-primero .main-uno .bulbasaur {
       width: 25vh;
       transition: 1s; }
+      .contenedor-primero .main-uno .bulbasaur:hover {
+        transform: scale(1.1); }
     .contenedor-primero .main-uno .charmander {
       width: 25vh;
       transition: 1s; }
+      .contenedor-primero .main-uno .charmander:hover {
+        transform: scale(1.1); }
     .contenedor-primero .main-uno .pikachu {
       width: 25vh;
       transition: 1s; }
+      .contenedor-primero .main-uno .pikachu:hover {
+        transform: scale(1.1); }
   .contenedor-primero .legendariospri-gen {
     background-image: linear-gradient(to top, #252424, white);
     grid-area: section;
@@ -125,18 +145,33 @@ footer h3 {
     .contenedor-primero .legendariospri-gen div .articuno {
       width: 20vh;
       transition: 1s; }
+      .contenedor-primero .legendariospri-gen div .articuno:hover {
+        transform: scale(1.1); }
     .contenedor-primero .legendariospri-gen div .moltres {
       width: 20vh;
       transition: 1s; }
+      .contenedor-primero .legendariospri-gen div .moltres:hover {
+        transform: scale(1.1); }
     .contenedor-primero .legendariospri-gen div .zapdos {
       width: 20vh;
       transition: 1s; }
+      .contenedor-primero .legendariospri-gen div .zapdos:hover {
+        transform: scale(1.1); }
     .contenedor-primero .legendariospri-gen div .mew {
       width: 20vh;
       transition: 1s; }
+      .contenedor-primero .legendariospri-gen div .mew:hover {
+        transform: scale(1.1); }
     .contenedor-primero .legendariospri-gen div .meowto {
       width: 20vh;
       transition: 1s; }
+      .contenedor-primero .legendariospri-gen div .meowto:hover {
+        transform: scale(1.1); }
+    .contenedor-primero .legendariospri-gen div .dragonite {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-primero .legendariospri-gen div .dragonite:hover {
+        transform: scale(1.1); }
   .contenedor-primero .otrospokes-uno {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
@@ -144,81 +179,357 @@ footer h3 {
     .contenedor-primero .otrospokes-uno .nidorino {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .nidorino:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .nidoran {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .nidoran:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .widle {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .widle:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .pidgey {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .pidgey:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .spearow {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .spearow:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .pichu {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .pichu:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .caterpie {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .caterpie:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .rattata {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .rattata:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .jigly {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .jigly:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .snorlax {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .snorlax:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .clefa {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .clefa:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .ekans {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .ekans:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .abra {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .abra:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .oddish {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .oddish:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .gastly {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .gastly:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .grimer {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .grimer:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .geoudude {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .geoudude:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .magikarp {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .magikarp:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .machop {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .machop:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .mankey {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .mankey:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .meow {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .meow:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .diggle {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .diggle:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .bellsprout {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .bellsprout:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .cubone {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .cubone:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .hitmonlee {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .hitmonlee:hover {
+        transform: scale(1.5); }
     .contenedor-primero .otrospokes-uno .hitmonchan {
       width: 10vh;
       transition: 1s; }
+      .contenedor-primero .otrospokes-uno .hitmonchan:hover {
+        transform: scale(1.5); }
   .contenedor-primero .footer-uno {
+    display: none;
+    grid-area: footer; }
+
+/*estilos segunda generacion*/
+.contenedor-segundo {
+  display: grid;
+  grid-template-areas: "header header" "main main" "section sec-dos" "footer footer";
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr; }
+  .contenedor-segundo .header-dos {
+    grid-area: header;
+    gap: 1rem;
+    margin-bottom: 1rem; }
+    .contenedor-segundo .header-dos nav ul {
+      display: flex;
+      background-color: #3d3d3d;
+      justify-content: space-evenly; }
+      .contenedor-segundo .header-dos nav ul li {
+        background-color: #3d3d3d;
+        padding: 1rem;
+        list-style: none;
+        display: flex; }
+        .contenedor-segundo .header-dos nav ul li a {
+          text-decoration: none;
+          color: #d4d4d4; }
+  .contenedor-segundo .main-dos {
+    background-image: linear-gradient(to bottom, #252424, white);
+    color: #c5c5c5;
+    grid-area: main; }
+    .contenedor-segundo .main-dos h1 {
+      text-align: center; }
+    .contenedor-segundo .main-dos div-uno {
+      text-align: center; }
+    .contenedor-segundo .main-dos .totodile {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-segundo .main-dos .totodile:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .main-dos .chikorita {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-segundo .main-dos .chikorita:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .main-dos .cyndaquil {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-segundo .main-dos .cyndaquil:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .main-dos .pikachu {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-segundo .main-dos .pikachu:hover {
+        transform: scale(1.1); }
+  .contenedor-segundo .legendariosdos-gen {
+    background-image: linear-gradient(to top, #252424, white);
+    grid-area: section;
+    text-align: center;
+    color: black; }
+    .contenedor-segundo .legendariosdos-gen div .suicune {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-segundo .legendariosdos-gen div .suicune:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .legendariosdos-gen div .entei {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-segundo .legendariosdos-gen div .entei:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .legendariosdos-gen div .raikou {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-segundo .legendariosdos-gen div .raikou:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .legendariosdos-gen div .lugia {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-segundo .legendariosdos-gen div .lugia:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .legendariosdos-gen div .hooh {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-segundo .legendariosdos-gen div .hooh:hover {
+        transform: scale(1.1); }
+    .contenedor-segundo .legendariosdos-gen div .celebi {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-segundo .legendariosdos-gen div .celebi:hover {
+        transform: scale(1.1); }
+  .contenedor-segundo .otrospokes-dos {
+    grid-area: sec-dos;
+    background-image: linear-gradient(to top, #252424, white);
+    text-align: center; }
+    .contenedor-segundo .otrospokes-dos .ledyba {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .ledyba:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .chinchou {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .chinchou:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .marill {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .marill:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .sentret {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .sentret:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .cobrat {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .cobrat:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .hoothoot {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .hoothoot:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .natu {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .natu:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .mareep {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .mareep:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .togepi {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .togepi:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .bellosom {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .bellosom:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .scizor {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .scizor:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .heracross {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .heracross:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .politoed {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .politoed:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .bobo {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .bobo:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .steelix {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .steelix:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .teddihursa {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .teddihursa:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .kingdra {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .kingdra:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .phanpy {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .phanpy:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .girafarig {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .girafarig:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .spinarak {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .spinarak:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .magby {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .magby:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .sneasel {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .sneasel:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .elekid {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .elekid:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .houndour {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .houndour:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .blissey {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .blissey:hover {
+        transform: scale(1.5); }
+    .contenedor-segundo .otrospokes-dos .delibird {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-segundo .otrospokes-dos .delibird:hover {
+        transform: scale(1.5); }
+  .contenedor-segundo .footer-dos {
     display: none;
     grid-area: footer; }
