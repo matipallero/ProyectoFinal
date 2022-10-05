@@ -3,6 +3,7 @@
 @import "partials/keyframes";
 @import "partials/fondo";
 @import "partials/variables";
+@import "partials/mixin";
 
     header{
         h1{
@@ -28,13 +29,7 @@
             justify-content: space-evenly;
             a{
                 img{
-                    width: 95%;
-                    margin: 1rem;
-                    border-radius: 3rem;
-                    box-shadow: 1rem 1rem 1rem white;
-                    animation-name: movimientos;
-                    animation-duration: 3s;
-                    animation-iteration-count: infinite;
+                    @include img
                 }
                 .imagen-1{
                     width: 40vh;
@@ -426,7 +421,7 @@
         h1{
             text-align: center;
         }
-        div-uno{
+        div-dos{
             text-align: center;
         }
         .totodile{
@@ -705,6 +700,364 @@
 
     }
     .footer-dos{
+        display: none;
+        grid-area: footer;
+    }
+}
+
+/*estilos tercera generacion*/
+
+.contenedor-tercero{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "section sec-dos"
+    "footer footer";
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr;
+    .header-tres{
+        grid-area: header;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        nav{
+            ul{
+                display: flex;
+                background-color: rgb(61, 61, 61);
+                justify-content: space-evenly;
+                li{
+                    background-color: rgb(61, 61, 61);
+                    padding: 1rem;
+                    list-style: none;
+                    display: flex;
+
+                    a{
+                        text-decoration: none;
+                        color: rgb(212, 212, 212);
+                    }
+                }
+            }
+        }
+    }
+    .main-tres{
+        background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
+        color: rgb(197, 197, 197);
+        grid-area: main;
+        h1{
+            text-align: center;
+        }
+        div-tres{
+            text-align: center;
+        }
+        .mudkip{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .treecko{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .torchit{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .pikachu{
+            width: 25vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .legendariostres-gen{
+        background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+        grid-area: section;
+        text-align: center;
+        color: black;
+        div{
+            .jirachi{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .deoxys{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+                
+            }
+            .latios{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .latias{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .kyogre{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .groudon{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .rayquaza{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .registeel{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .regirock{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+            .regirock{
+                width: 20vh;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }
+            }
+        }
+
+    }
+    .otrospokes-tres{
+        grid-area: sec-dos;
+        background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+        text-align: center;
+        .poochyena {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .wurmple {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .beautifly {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .lotad {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .ralts {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .surskit {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .slakoth {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .wishmur {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .makuhita {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .azurill {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }     
+        .sableye {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .carvanha {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }     
+        .aaron {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }       
+        .numel {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .trapinch {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }     
+        .cacnea {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }      
+        .seviper {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .corpish {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .lunatone {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .solrock {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .absol {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .glalie {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .wynaut {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .shupet {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .volbeat{
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        .beldum {
+            width: 10vh;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+
+    }
+    .footer-tres{
         display: none;
         grid-area: footer;
     }

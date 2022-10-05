@@ -13,7 +13,9 @@
 
 body {
   background-image: url(../img/lafoto.jpg);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  font-family: 'Peralta', cursive;
+  font-size: 14.2px; }
 
 @media screen and (max-width: 680px) {
   div main div {
@@ -40,6 +42,18 @@ body {
       gap: 1rem;
       background-image: linear-gradient(to top, #252424, white); }
       .header-dos nav ul li {
+        background-color: transparent;
+        justify-items: center;
+        justify-content: center; }
+  .header-tres {
+    display: inline-block;
+    text-align: center; }
+    .header-tres nav ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background-image: linear-gradient(to top, #252424, white); }
+      .header-tres nav ul li {
         background-color: transparent;
         justify-items: center;
         justify-content: center; } }
@@ -339,7 +353,7 @@ footer h3 {
     grid-area: main; }
     .contenedor-segundo .main-dos h1 {
       text-align: center; }
-    .contenedor-segundo .main-dos div-uno {
+    .contenedor-segundo .main-dos div-dos {
       text-align: center; }
     .contenedor-segundo .main-dos .totodile {
       width: 25vh;
@@ -531,5 +545,249 @@ footer h3 {
       .contenedor-segundo .otrospokes-dos .delibird:hover {
         transform: scale(1.5); }
   .contenedor-segundo .footer-dos {
+    display: none;
+    grid-area: footer; }
+
+/*estilos tercera generacion*/
+.contenedor-tercero {
+  display: grid;
+  grid-template-areas: "header header" "main main" "section sec-dos" "footer footer";
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr; }
+  .contenedor-tercero .header-tres {
+    grid-area: header;
+    gap: 1rem;
+    margin-bottom: 1rem; }
+    .contenedor-tercero .header-tres nav ul {
+      display: flex;
+      background-color: #3d3d3d;
+      justify-content: space-evenly; }
+      .contenedor-tercero .header-tres nav ul li {
+        background-color: #3d3d3d;
+        padding: 1rem;
+        list-style: none;
+        display: flex; }
+        .contenedor-tercero .header-tres nav ul li a {
+          text-decoration: none;
+          color: #d4d4d4; }
+  .contenedor-tercero .main-tres {
+    background-image: linear-gradient(to bottom, #252424, white);
+    color: #c5c5c5;
+    grid-area: main; }
+    .contenedor-tercero .main-tres h1 {
+      text-align: center; }
+    .contenedor-tercero .main-tres div-tres {
+      text-align: center; }
+    .contenedor-tercero .main-tres .mudkip {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-tercero .main-tres .mudkip:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .main-tres .treecko {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-tercero .main-tres .treecko:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .main-tres .torchit {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-tercero .main-tres .torchit:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .main-tres .pikachu {
+      width: 25vh;
+      transition: 1s; }
+      .contenedor-tercero .main-tres .pikachu:hover {
+        transform: scale(1.1); }
+  .contenedor-tercero .legendariostres-gen {
+    background-image: linear-gradient(to top, #252424, white);
+    grid-area: section;
+    text-align: center;
+    color: black; }
+    .contenedor-tercero .legendariostres-gen div .jirachi {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .jirachi:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .deoxys {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .deoxys:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .latios {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .latios:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .latias {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .latias:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .kyogre {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .kyogre:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .groudon {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .groudon:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .rayquaza {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .rayquaza:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .registeel {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .registeel:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .regirock {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .regirock:hover {
+        transform: scale(1.1); }
+    .contenedor-tercero .legendariostres-gen div .regirock {
+      width: 20vh;
+      transition: 1s; }
+      .contenedor-tercero .legendariostres-gen div .regirock:hover {
+        transform: scale(1.1); }
+  .contenedor-tercero .otrospokes-tres {
+    grid-area: sec-dos;
+    background-image: linear-gradient(to top, #252424, white);
+    text-align: center; }
+    .contenedor-tercero .otrospokes-tres .poochyena {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .poochyena:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .wurmple {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .wurmple:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .beautifly {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .beautifly:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .lotad {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .lotad:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .ralts {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .ralts:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .surskit {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .surskit:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .slakoth {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .slakoth:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .wishmur {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .wishmur:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .makuhita {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .makuhita:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .azurill {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .azurill:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .sableye {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .sableye:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .carvanha {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .carvanha:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .aaron {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .aaron:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .numel {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .numel:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .trapinch {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .trapinch:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .cacnea {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .cacnea:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .seviper {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .seviper:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .corpish {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .corpish:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .lunatone {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .lunatone:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .solrock {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .solrock:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .absol {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .absol:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .glalie {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .glalie:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .wynaut {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .wynaut:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .shupet {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .shupet:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .volbeat {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .volbeat:hover {
+        transform: scale(1.5); }
+    .contenedor-tercero .otrospokes-tres .beldum {
+      width: 10vh;
+      transition: 1s; }
+      .contenedor-tercero .otrospokes-tres .beldum:hover {
+        transform: scale(1.5); }
+  .contenedor-tercero .footer-tres {
     display: none;
     grid-area: footer; }

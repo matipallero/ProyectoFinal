@@ -44,4 +44,21 @@ $movile: 680px;
             }
         }
     }
+    .header-tres{        
+        display: inline-block;
+        text-align: center;
+        nav{
+            ul{       
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
+                li{      
+                   background-color: transparent;
+                   justify-items: center;
+                   justify-content: center;
+                }
+            }
+        }
+    }
 }
