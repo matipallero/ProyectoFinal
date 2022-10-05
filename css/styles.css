@@ -649,10 +649,10 @@ footer h3 {
       transition: 1s; }
       .contenedor-tercero .legendariostres-gen div .regirock:hover {
         transform: scale(1.1); }
-    .contenedor-tercero .legendariostres-gen div .regirock {
+    .contenedor-tercero .legendariostres-gen div .regice {
       width: 20vh;
       transition: 1s; }
-      .contenedor-tercero .legendariostres-gen div .regirock:hover {
+      .contenedor-tercero .legendariostres-gen div .regice:hover {
         transform: scale(1.1); }
   .contenedor-tercero .otrospokes-tres {
     grid-area: sec-dos;
