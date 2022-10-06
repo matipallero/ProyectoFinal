@@ -794,6 +794,7 @@ footer h3 {
     display: none;
     grid-area: footer; }
 
+/*estilos de sobre nosotros*/
 .body-nosotros .main-nosotros p {
   background-color: white;
   margin-top: 1rem; }
