@@ -91,6 +91,8 @@ main div {
     width: 40vh; }
   main div a .imagen-3 {
     width: 40vh; }
+  main div a .imagen-4 {
+    width: 40vh; }
 
 footer h3 {
   margin-top: 11.5vh;
@@ -791,3 +793,16 @@ footer h3 {
   .contenedor-tercero .footer-tres {
     display: none;
     grid-area: footer; }
+
+.body-nosotros .main-nosotros p {
+  background-color: white;
+  margin-top: 1rem; }
+
+.body-nosotros footer strong {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 65.8vh; }
