@@ -73,6 +73,7 @@
         grid-area: header;
         gap: 1rem;
         margin-bottom: 1rem;
+        box-shadow: 1rem 1rem 1rem black;
         nav{
             ul{
                 display: flex;
@@ -97,6 +98,8 @@
         color: rgb(197, 197, 197);
         grid-area: main;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h1{
             text-align: center;
         }
@@ -138,6 +141,8 @@
         text-align: center;
         color: black;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h2{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -198,6 +203,8 @@
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h3{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -408,6 +415,7 @@
         grid-area: header;
         gap: 1rem;
         margin-bottom: 1rem;
+        box-shadow: 1rem 1rem 1rem black;
         nav{
             ul{
                 display: flex;
@@ -432,6 +440,8 @@
         color: rgb(197, 197, 197);
         grid-area: main;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h1{
             text-align: center;
         }
@@ -473,6 +483,8 @@
         text-align: center;
         color: black;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h2{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -535,6 +547,8 @@
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h3{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -745,6 +759,7 @@
         grid-area: header;
         gap: 1rem;
         margin-bottom: 1rem;
+        box-shadow: 1rem 1rem 1rem black;
         nav{
             ul{
                 display: flex;
@@ -769,10 +784,12 @@
         color: rgb(197, 197, 197);
         grid-area: main;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h1{
             text-align: center;
         }
-        div-tres{
+        div-dos{
             text-align: center;
         }
         .mudkip{
@@ -810,9 +827,11 @@
         text-align: center;
         color: black;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h2{
-                padding: 1rem;
-                margin-bottom: 2rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
         }
         div{
             .jirachi{
@@ -864,46 +883,15 @@
                     
                 }
             }
-            .rayquaza{
-                width: 20vh;
-                transition: 1s;
-                &:hover{
-                    transform: scale(1.1);
-                    
-                }
-            }
-            .registeel{
-                width: 20vh;
-                transition: 1s;
-                &:hover{
-                    transform: scale(1.1);
-                    
-                }
-            }
-            .regirock{
-                width: 20vh;
-                transition: 1s;
-                &:hover{
-                    transform: scale(1.1);
-                    
-                }
-            }
-            .regice{
-                width: 20vh;
-                transition: 1s;
-                &:hover{
-                    transform: scale(1.1);
-                    
-                }
-            }
         }
-
     }
     .otrospokes-tres{
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
         margin: 0.3rem;
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 1rem white;
         h3{
             padding: 1rem;
             margin-bottom: 2rem;

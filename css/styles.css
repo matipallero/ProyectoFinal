@@ -112,7 +112,8 @@ footer h3 {
   .contenedor-primero .header-uno {
     grid-area: header;
     gap: 1rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-primero .header-uno nav ul {
       display: flex;
       background-color: #3d3d3d;
@@ -129,7 +130,9 @@ footer h3 {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
     grid-area: main;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-primero .main-uno h1 {
       text-align: center; }
     .contenedor-primero .main-uno div-uno {
@@ -159,7 +162,9 @@ footer h3 {
     grid-area: section;
     text-align: center;
     color: black;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-primero .legendariospri-gen h2 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -197,7 +202,9 @@ footer h3 {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
     text-align: center;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-primero .otrospokes-uno h3 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -345,7 +352,8 @@ footer h3 {
   .contenedor-segundo .header-dos {
     grid-area: header;
     gap: 1rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-segundo .header-dos nav ul {
       display: flex;
       background-color: #3d3d3d;
@@ -362,7 +370,9 @@ footer h3 {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
     grid-area: main;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-segundo .main-dos h1 {
       text-align: center; }
     .contenedor-segundo .main-dos div-dos {
@@ -392,7 +402,9 @@ footer h3 {
     grid-area: section;
     text-align: center;
     color: black;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-segundo .legendariosdos-gen h2 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -430,7 +442,9 @@ footer h3 {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
     text-align: center;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-segundo .otrospokes-dos h3 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -578,7 +592,8 @@ footer h3 {
   .contenedor-tercero .header-tres {
     grid-area: header;
     gap: 1rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-tercero .header-tres nav ul {
       display: flex;
       background-color: #3d3d3d;
@@ -595,10 +610,12 @@ footer h3 {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
     grid-area: main;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-tercero .main-tres h1 {
       text-align: center; }
-    .contenedor-tercero .main-tres div-tres {
+    .contenedor-tercero .main-tres div-dos {
       text-align: center; }
     .contenedor-tercero .main-tres .mudkip {
       width: 25vh;
@@ -625,7 +642,9 @@ footer h3 {
     grid-area: section;
     text-align: center;
     color: black;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-tercero .legendariostres-gen h2 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -659,31 +678,13 @@ footer h3 {
       transition: 1s; }
       .contenedor-tercero .legendariostres-gen div .groudon:hover {
         transform: scale(1.1); }
-    .contenedor-tercero .legendariostres-gen div .rayquaza {
-      width: 20vh;
-      transition: 1s; }
-      .contenedor-tercero .legendariostres-gen div .rayquaza:hover {
-        transform: scale(1.1); }
-    .contenedor-tercero .legendariostres-gen div .registeel {
-      width: 20vh;
-      transition: 1s; }
-      .contenedor-tercero .legendariostres-gen div .registeel:hover {
-        transform: scale(1.1); }
-    .contenedor-tercero .legendariostres-gen div .regirock {
-      width: 20vh;
-      transition: 1s; }
-      .contenedor-tercero .legendariostres-gen div .regirock:hover {
-        transform: scale(1.1); }
-    .contenedor-tercero .legendariostres-gen div .regice {
-      width: 20vh;
-      transition: 1s; }
-      .contenedor-tercero .legendariostres-gen div .regice:hover {
-        transform: scale(1.1); }
   .contenedor-tercero .otrospokes-tres {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
     text-align: center;
-    margin: 0.3rem; }
+    margin: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem white; }
     .contenedor-tercero .otrospokes-tres h3 {
       padding: 1rem;
       margin-bottom: 2rem; }
