@@ -128,7 +128,8 @@ footer h3 {
   .contenedor-primero .main-uno {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
-    grid-area: main; }
+    grid-area: main;
+    margin: 0.3rem; }
     .contenedor-primero .main-uno h1 {
       text-align: center; }
     .contenedor-primero .main-uno div-uno {
@@ -157,7 +158,11 @@ footer h3 {
     background-image: linear-gradient(to top, #252424, white);
     grid-area: section;
     text-align: center;
-    color: black; }
+    color: black;
+    margin: 0.3rem; }
+    .contenedor-primero .legendariospri-gen h2 {
+      padding: 1rem;
+      margin-bottom: 2rem; }
     .contenedor-primero .legendariospri-gen div .articuno {
       width: 20vh;
       transition: 1s; }
@@ -191,7 +196,11 @@ footer h3 {
   .contenedor-primero .otrospokes-uno {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
-    text-align: center; }
+    text-align: center;
+    margin: 0.3rem; }
+    .contenedor-primero .otrospokes-uno h3 {
+      padding: 1rem;
+      margin-bottom: 2rem; }
     .contenedor-primero .otrospokes-uno .nidorino {
       width: 10vh;
       transition: 1s; }
@@ -352,7 +361,8 @@ footer h3 {
   .contenedor-segundo .main-dos {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
-    grid-area: main; }
+    grid-area: main;
+    margin: 0.3rem; }
     .contenedor-segundo .main-dos h1 {
       text-align: center; }
     .contenedor-segundo .main-dos div-dos {
@@ -381,7 +391,11 @@ footer h3 {
     background-image: linear-gradient(to top, #252424, white);
     grid-area: section;
     text-align: center;
-    color: black; }
+    color: black;
+    margin: 0.3rem; }
+    .contenedor-segundo .legendariosdos-gen h2 {
+      padding: 1rem;
+      margin-bottom: 2rem; }
     .contenedor-segundo .legendariosdos-gen div .suicune {
       width: 20vh;
       transition: 1s; }
@@ -415,7 +429,11 @@ footer h3 {
   .contenedor-segundo .otrospokes-dos {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
-    text-align: center; }
+    text-align: center;
+    margin: 0.3rem; }
+    .contenedor-segundo .otrospokes-dos h3 {
+      padding: 1rem;
+      margin-bottom: 2rem; }
     .contenedor-segundo .otrospokes-dos .ledyba {
       width: 10vh;
       transition: 1s; }
@@ -576,7 +594,8 @@ footer h3 {
   .contenedor-tercero .main-tres {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
-    grid-area: main; }
+    grid-area: main;
+    margin: 0.3rem; }
     .contenedor-tercero .main-tres h1 {
       text-align: center; }
     .contenedor-tercero .main-tres div-tres {
@@ -605,7 +624,11 @@ footer h3 {
     background-image: linear-gradient(to top, #252424, white);
     grid-area: section;
     text-align: center;
-    color: black; }
+    color: black;
+    margin: 0.3rem; }
+    .contenedor-tercero .legendariostres-gen h2 {
+      padding: 1rem;
+      margin-bottom: 2rem; }
     .contenedor-tercero .legendariostres-gen div .jirachi {
       width: 20vh;
       transition: 1s; }
@@ -659,7 +682,11 @@ footer h3 {
   .contenedor-tercero .otrospokes-tres {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
-    text-align: center; }
+    text-align: center;
+    margin: 0.3rem; }
+    .contenedor-tercero .otrospokes-tres h3 {
+      padding: 1rem;
+      margin-bottom: 2rem; }
     .contenedor-tercero .otrospokes-tres .poochyena {
       width: 10vh;
       transition: 1s; }
@@ -796,8 +823,12 @@ footer h3 {
 
 /*estilos de sobre nosotros*/
 .body-nosotros .main-nosotros p {
-  background-color: white;
-  margin-top: 1rem; }
+  background-color: black;
+  margin-top: 1rem;
+  color: white;
+  margin: 1rem;
+  padding: 2rem;
+  font-family: 'Peralta', cursive; }
 
 .body-nosotros footer strong {
   background-color: black;
@@ -806,4 +837,5 @@ footer h3 {
   padding: 1rem;
   display: flex;
   justify-content: center;
-  margin-top: 65.8vh; }
+  margin-top: 65.8vh;
+  font-family: 'Peralta', cursive; }

@@ -96,6 +96,7 @@
         background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
         color: rgb(197, 197, 197);
         grid-area: main;
+        margin: 0.3rem;
         h1{
             text-align: center;
         }
@@ -136,6 +137,11 @@
         grid-area: section;
         text-align: center;
         color: black;
+        margin: 0.3rem;
+        h2{
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
         div{
             .articuno{
                 width: 20vh;
@@ -191,6 +197,11 @@
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
+        margin: 0.3rem;
+        h3{
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
         .nidorino {
             width: 10vh;
             transition: 1s;
@@ -420,6 +431,7 @@
         background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
         color: rgb(197, 197, 197);
         grid-area: main;
+        margin: 0.3rem;
         h1{
             text-align: center;
         }
@@ -460,6 +472,11 @@
         grid-area: section;
         text-align: center;
         color: black;
+        margin: 0.3rem;
+        h2{
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
         div{
             .suicune{
                 width: 20vh;
@@ -517,6 +534,11 @@
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
+        margin: 0.3rem;
+        h3{
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
         .ledyba {
             width: 10vh;
             transition: 1s;
@@ -746,6 +768,7 @@
         background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
         color: rgb(197, 197, 197);
         grid-area: main;
+        margin: 0.3rem;
         h1{
             text-align: center;
         }
@@ -786,6 +809,11 @@
         grid-area: section;
         text-align: center;
         color: black;
+        margin: 0.3rem;
+        h2{
+                padding: 1rem;
+                margin-bottom: 2rem;
+        }
         div{
             .jirachi{
                 width: 20vh;
@@ -875,6 +903,11 @@
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
+        margin: 0.3rem;
+        h3{
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
         .poochyena {
             width: 10vh;
             transition: 1s;
@@ -1071,8 +1104,12 @@
 .body-nosotros{
     .main-nosotros{
         p{
-            background-color: white;
+            background-color: black;
             margin-top: 1rem;
+            color: white;
+            margin: 1rem;
+            padding: 2rem;
+            font-family: 'Peralta', cursive;
         }
     }
     footer{
@@ -1084,6 +1121,8 @@
             display: flex;
             justify-content: center;
             margin-top: 65.8vh;
+            font-family: 'Peralta', cursive;
+            
         }
     }
 }
