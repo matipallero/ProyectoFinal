@@ -81,7 +81,7 @@ main div {
     width: 95%;
     margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white;
+    box-shadow: 1rem 1rem 1rem #414141;
     animation-name: movimientos;
     animation-duration: 3s;
     animation-iteration-count: infinite; }
