@@ -130,7 +130,7 @@ footer h3 {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
     grid-area: main;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
     box-shadow: 1rem 1rem 1rem white; }
     .contenedor-primero .main-uno h1 {
@@ -162,9 +162,9 @@ footer h3 {
     grid-area: section;
     text-align: center;
     color: black;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white; }
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-primero .legendariospri-gen h2 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -202,9 +202,9 @@ footer h3 {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
     text-align: center;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white; }
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-primero .otrospokes-uno h3 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -370,7 +370,7 @@ footer h3 {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
     grid-area: main;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
     box-shadow: 1rem 1rem 1rem white; }
     .contenedor-segundo .main-dos h1 {
@@ -402,9 +402,9 @@ footer h3 {
     grid-area: section;
     text-align: center;
     color: black;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white; }
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-segundo .legendariosdos-gen h2 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -442,9 +442,9 @@ footer h3 {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
     text-align: center;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white; }
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-segundo .otrospokes-dos h3 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -610,7 +610,7 @@ footer h3 {
     background-image: linear-gradient(to bottom, #252424, white);
     color: #c5c5c5;
     grid-area: main;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
     box-shadow: 1rem 1rem 1rem white; }
     .contenedor-tercero .main-tres h1 {
@@ -642,9 +642,9 @@ footer h3 {
     grid-area: section;
     text-align: center;
     color: black;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white; }
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-tercero .legendariostres-gen h2 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -682,9 +682,9 @@ footer h3 {
     grid-area: sec-dos;
     background-image: linear-gradient(to top, #252424, white);
     text-align: center;
-    margin: 0.3rem;
+    margin: 1rem;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem white; }
+    box-shadow: 1rem 1rem 1rem black; }
     .contenedor-tercero .otrospokes-tres h3 {
       padding: 1rem;
       margin-bottom: 2rem; }
@@ -827,9 +827,10 @@ footer h3 {
   background-color: black;
   margin-top: 1rem;
   color: white;
-  margin: 1rem;
+  margin: 2rem;
   padding: 2rem;
-  font-family: 'Peralta', cursive; }
+  font-family: 'Peralta', cursive;
+  font-size: 1.5rem; }
 
 .body-nosotros footer strong {
   background-color: black;

@@ -97,7 +97,7 @@
         background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
         color: rgb(197, 197, 197);
         grid-area: main;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
         box-shadow: 1rem 1rem 1rem white;
         h1{
@@ -140,9 +140,9 @@
         grid-area: section;
         text-align: center;
         color: black;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
-        box-shadow: 1rem 1rem 1rem white;
+        box-shadow: 1rem 1rem 1rem black;
         h2{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -202,9 +202,9 @@
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
-        box-shadow: 1rem 1rem 1rem white;
+        box-shadow: 1rem 1rem 1rem black;
         h3{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -439,7 +439,7 @@
         background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
         color: rgb(197, 197, 197);
         grid-area: main;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
         box-shadow: 1rem 1rem 1rem white;
         h1{
@@ -482,9 +482,9 @@
         grid-area: section;
         text-align: center;
         color: black;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
-        box-shadow: 1rem 1rem 1rem white;
+        box-shadow: 1rem 1rem 1rem black;
         h2{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -546,9 +546,9 @@
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
-        box-shadow: 1rem 1rem 1rem white;
+        box-shadow: 1rem 1rem 1rem black;
         h3{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -783,7 +783,7 @@
         background-image: linear-gradient(to bottom,  rgb(37, 36, 36), white);
         color: rgb(197, 197, 197);
         grid-area: main;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
         box-shadow: 1rem 1rem 1rem white;
         h1{
@@ -826,9 +826,9 @@
         grid-area: section;
         text-align: center;
         color: black;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
-        box-shadow: 1rem 1rem 1rem white;
+        box-shadow: 1rem 1rem 1rem black;
         h2{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -889,9 +889,9 @@
         grid-area: sec-dos;
         background-image: linear-gradient(to top,  rgb(37, 36, 36), white);
         text-align: center;
-        margin: 0.3rem;
+        margin: 1rem;
         border-radius: 3rem;
-        box-shadow: 1rem 1rem 1rem white;
+        box-shadow: 1rem 1rem 1rem black;
         h3{
             padding: 1rem;
             margin-bottom: 2rem;
@@ -1095,9 +1095,10 @@
             background-color: black;
             margin-top: 1rem;
             color: white;
-            margin: 1rem;
+            margin: 2rem;
             padding: 2rem;
             font-family: 'Peralta', cursive;
+            font-size: 1.5rem;
         }
     }
     footer{
